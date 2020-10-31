@@ -1,23 +1,15 @@
 users = ['ALi', 'Khan', 'Jahan', 'Kalan', 'Kalam', 'KhanJan', 'Adam']
 
 print(users[2])
-
 print(users[:4])
-
 print(users[4:])
 
 #Unpacking
-
 items = ['Laptop', 'Phone', 'Joystick']
-
 print(items[0])
-
 laptop, phone, joystick = items
-
 print(laptop)
-
 laptop , *other = items
-
 print(other)
 
 #Add to array items.append()
